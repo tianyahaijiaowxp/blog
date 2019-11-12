@@ -1,0 +1,21 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.95.222.171:3306/blog?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 980121WXPwxp@
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+logging:
+  level:
+    root: info
+    com.tianya: info
+  file: log/blog-pro.log
+
+
+server:
+  port: 9999
